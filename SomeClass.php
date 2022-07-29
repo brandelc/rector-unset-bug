@@ -5,7 +5,7 @@ class SomeClass
     {
         if (rand(0, 1)) {
             $a = 5;
-        } else {
+        } else if (rand(0,1)) {
             unset($a);
         }
         echo $a;
